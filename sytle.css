@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: navajowhite;
+    padding: 0px 30px;
+}
+.the_form{
+    background-color: aliceblue;
+    max-width: 500px;
+    width: 100%;
+    margin: 70px;
+    padding: 25px;
+    box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.35);
+    float: right;
+    min-height: 75vh;
+
+}
+.the_form .title{
+    font-weight: 900;
+    color: rgb(30, 162, 228);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.the_form .class_input{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.the_form .class_input label{
+    width: 200px;
+    /* margin-right: 25px; */
+    font-size: 20px;
+}
+
+.the_form .class_input input{
+    width: 100%;
+    height: 35px;
+    outline: none;
+}
+
+.the_form .class_input textarea{
+    resize: none;
+    min-height: fit-content;
+    width: 100%;
+}
+
+.the_form .class_input .sex{
+    position: relative;
+    height: 37px;
+    width: 100%;
+}
+
+.the_form .class_input .sex select{
+    -webkit-animation: none;
+    appearance: none;
+    border: 2px solid peru;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.the_form .class_input input:focus{
+    border: 2px solid peru;
+}
